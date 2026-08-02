@@ -1,8 +1,27 @@
 aid: vyne
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vyne.png
 name: Vyne
-description: 'Vyne is a company surfaced as a portfolio company of partech, seedcamp and added to the
-  API Evangelist network as a stub for enrichment. Sector: Financial Services. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Vyne was a London-based account-to-account (A2A) open banking payments platform,
+  founded in 2019. It offered merchants real-time pay-by-bank payments, instant refunds,
+  no-code payment links and verified payouts, built on open banking rails and real-time
+  ACH networks with in-app biometric SCA across the UK and Europe. Vyne served retail,
+  financial services and automotive merchants and won Best Open Banking Payments Project
+  at the Open Banking Expo Awards 2023. In September 2024 Vyne was acquired by Dubai-based
+  open banking platform Tarabut, and it wound down its UK operations effective 22 April 2025.
+  The payvyne.com domain has since been repurposed to an unrelated site, and Vyne no longer
+  operates a public developer portal, API reference or OpenAPI surface. This profile is
+  retained as a historical record; there is no live API to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/vyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,23 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Tarabut (Sept 2024); UK operations wound down effective 2025-04-22; payvyne.com domain repurposed.
+x-acquired-by: tarabut
+x-acquired-date: '2024-09-03'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Financial Services
+- Payments
+- Open Banking
+- Account-to-Account
+- Pay-by-Bank
+- Fintech
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +54,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vyne-domain-security.yml
 - type: Website
   url: https://www.payvyne.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
