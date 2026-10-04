@@ -50,7 +50,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Open Banking
 - Account-to-Account
@@ -68,6 +68,7 @@ tags_raw:
 - Fintech
 - Acquired
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
